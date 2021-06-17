@@ -5,7 +5,7 @@ var user = {
 }
 
 alert("Make your Profile!");
-var age = prompt("What is your Age?");
+var age = prompt("What is your Current Age?");
 function checkAge() {
     if (Number(age) < 18) {
         alert("Sorry, you are too young to make profile. Powering off");
